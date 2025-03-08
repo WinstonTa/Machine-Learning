@@ -15,3 +15,11 @@
 # winston_df = df[['YearStart', 'YearEnd', 'LocationAbbr', 'LocationDesc', 'Datasource',
 #        'Class', 'Topic', 'Question', 'Data_Value_Unit']]
 # winston_df.head()
+
+"""determining your categorical and numerical columns"""
+# # categorical columns
+# cat_col = [col for col in df.columns if df[col].dtype == 'object']
+# print('Categorical columns :',cat_col)
+# # Numerical columns
+# num_col = [col for col in df.columns if df[col].dtype != 'object']
+# print('Numerical columns :',num_col)
