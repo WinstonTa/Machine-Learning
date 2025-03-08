@@ -32,3 +32,6 @@
 
 """check total number of unique values in categorical columns"""
 # df[cat_col].nunique()
+
+"""check the (row, column) count of a dataframe"""
+# df.shape
