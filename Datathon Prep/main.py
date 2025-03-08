@@ -4,6 +4,12 @@
 "my name is mindy and this will work better than jason's"
 "hello my name is winston and im the best one of them all"
 
+# US – This is not a state, but a reference to the United States.
+# PR – This is the abbreviation for Puerto Rico, a U.S. territory, not a state.
+# GU – This refers to Guam, another U.S. territory, not a state.
+# VI – This is the abbreviation for the U.S. Virgin Islands, a U.S. territory.
+# DC – This stands for Washington, D.C., the capital of the United States, which is not a state but a federal district.
+
 """test 2 columns are same instantly"""
 # (df['YearStart'] == df['YearEnd']).all()
 
