@@ -65,3 +65,22 @@
 # # Drop the outliers
 # df4 = df3[(df3['Age'] >= lower_bound) 
 #                 & (df3['Age'] <= upper_bound)]
+
+"""data validation and verification"""
+# X = df3[['Pclass','Sex','Age', 'SibSp','Parch','Fare','Embarked']]
+# Y = df3['Survived']
+
+"""min-max scaling"""
+# rescales values to specified range, typically between 0-1. Preserves original distribution.
+
+# from sklearn.preprocessing import MinMaxScaler
+
+# # initialising the MinMaxScaler
+# scaler = MinMaxScaler(feature_range=(0, 1))
+
+# # Numerical columns
+# num_col_ = [col for col in X.columns if X[col].dtype != 'object']
+# x1 = X
+# # learning the statistical parameters for each of the data and transforming
+# x1[num_col_] = scaler.fit_transform(x1[num_col_])
+# x1.head()
