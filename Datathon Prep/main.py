@@ -49,3 +49,19 @@
 # plt.xlabel('Age')
 # plt.title('Box Plot')
 # plt.show()
+
+"""box plot numerical insights"""
+# # calculate summary statistics
+# mean = df3['Age'].mean()
+# std  = df3['Age'].std()
+
+# # Calculate the lower and upper bounds
+# lower_bound = mean - std*2
+# upper_bound = mean + std*2
+
+# print('Lower Bound :',lower_bound)
+# print('Upper Bound :',upper_bound)
+
+# # Drop the outliers
+# df4 = df3[(df3['Age'] >= lower_bound) 
+#                 & (df3['Age'] <= upper_bound)]
