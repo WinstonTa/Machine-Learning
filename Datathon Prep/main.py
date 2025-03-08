@@ -9,3 +9,9 @@
 
 """get column information"""
 # df.info()
+
+"""creating your own dataframe"""
+# df.columns
+# winston_df = df[['YearStart', 'YearEnd', 'LocationAbbr', 'LocationDesc', 'Datasource',
+#        'Class', 'Topic', 'Question', 'Data_Value_Unit']]
+# winston_df.head()
