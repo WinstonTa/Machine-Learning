@@ -1,2 +1,2 @@
 # Machine-Learning
-Winston, Mindy, Jason AI club repo
+Winston, Mindy, Jason, Bertrand AI club repo
