@@ -38,3 +38,14 @@
 
 """checking for missing data"""
 # round((winston_df.isnull().sum()/winston_df.shape[0])*100,2)
+
+"""creating a box plot"""
+# ensure 1 categorical and 1 quantitative variable for 2 total variables
+
+# import matplotlib.pyplot as plt
+
+# plt.boxplot(df3['Age'], vert=False)
+# plt.ylabel('Variable')
+# plt.xlabel('Age')
+# plt.title('Box Plot')
+# plt.show()
