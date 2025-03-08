@@ -35,3 +35,6 @@
 
 """check the (row, column) count of a dataframe"""
 # df.shape
+
+"""checking for missing data"""
+# round((winston_df.isnull().sum()/winston_df.shape[0])*100,2)
