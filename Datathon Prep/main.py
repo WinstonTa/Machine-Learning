@@ -23,3 +23,6 @@
 # # Numerical columns
 # num_col = [col for col in df.columns if df[col].dtype != 'object']
 # print('Numerical columns :',num_col)
+
+"""check total number of unique values in categorical columns"""
+# df[cat_col].nunique()
