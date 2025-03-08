@@ -6,3 +6,6 @@
 
 """test 2 columns are same instantly"""
 # (df['YearStart'] == df['YearEnd']).all()
+
+"""get column information"""
+# df.info()
